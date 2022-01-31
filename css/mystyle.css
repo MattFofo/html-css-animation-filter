@@ -76,3 +76,17 @@
     filter: sepia(60%);
 }
 
+
+/* esercizio 8 */
+
+.ex-8-img{
+    transition: all 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 4rem;
+    filter: saturate(180%);
+    filter: brightness(1.2);
+}
+
+
