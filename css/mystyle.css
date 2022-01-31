@@ -165,7 +165,7 @@
 
 /* esercizio 13 */
 
-.ex-13-top-white{
+.ex-13-button:hover .ex-13-top-white{
     animation: spin360 2s linear infinite;
 }
 
@@ -197,7 +197,7 @@
     }
 }
 
-.ex-13-bottom-white{
+.ex-13-button:hover .ex-13-bottom-white{
     animation: spin360-2 2s linear infinite;
 }
 
