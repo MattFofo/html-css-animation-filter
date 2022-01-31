@@ -125,7 +125,7 @@
 .ex-11-icon:hover{
     animation-name: spin2;
     animation-duration: 3s;
-    animation-timing-function: linear;
+    animation-timing-function: ease 1s;
     animation-iteration-count: infinite;
 }
 
@@ -133,5 +133,32 @@
     75%{
         transform: rotate(270deg);
     }
+}
+
+
+/* esercizioi 12 */
+
+.ex-12-top-white{
+    animation: move-a-bit 1s linear infinite alternate;
+}
+
+@keyframes move-a-bit {
+    100%{
+        top: -10px;
+        left: 50%;
+    }
+           
+}
+
+.ex-12-bottom-white{
+    animation: move-a-bit2 1s linear infinite alternate;
+}
+
+@keyframes move-a-bit2 {
+    100%{
+        bottom: -10px;
+        right: 50%;
+    }
+           
 }
 
