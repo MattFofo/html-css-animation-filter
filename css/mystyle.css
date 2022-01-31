@@ -138,7 +138,7 @@
 
 /* esercizioi 12 */
 
-.ex-12-top-white{
+.ex-12-button:hover .ex-12-top-white{
     animation: move-a-bit 1s linear infinite alternate;
 }
 
@@ -150,7 +150,7 @@
            
 }
 
-.ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
     animation: move-a-bit2 1s linear infinite alternate;
 }
 
@@ -162,3 +162,71 @@
            
 }
 
+
+/* esercizio 13 */
+
+.ex-13-top-white{
+    animation: spin360 2s linear infinite;
+}
+
+@keyframes spin360 {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+
+.ex-13-bottom-white{
+    animation: spin360-2 2s linear infinite;
+}
+
+
+
+@keyframes spin360-2 {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
