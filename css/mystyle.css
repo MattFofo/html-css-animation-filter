@@ -67,3 +67,12 @@
 
 /* esercizio 7 */
 
+.ex-7-img{
+    transition: all 2s;
+}
+
+.ex-7-img:hover{
+    filter: brightness(1.3);
+    filter: sepia(60%);
+}
+
