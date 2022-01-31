@@ -119,3 +119,19 @@
     }
 }
 
+
+/* esercizio 11 */
+
+.ex-11-icon:hover{
+    animation-name: spin2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin2 {
+    75%{
+        transform: rotate(270deg);
+    }
+}
+
