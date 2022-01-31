@@ -103,3 +103,19 @@
     transform: scale(.75);
 }
 
+
+/* esercizio 10 */
+
+.ex-10-icon{
+    animation-name: spin;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
