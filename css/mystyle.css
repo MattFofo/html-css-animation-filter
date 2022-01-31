@@ -24,3 +24,8 @@
 
 /* esercizio 4 */
 
+.ex-4-square:hover{
+    opacity: 0%;
+    transition: all 3s;
+}
+
